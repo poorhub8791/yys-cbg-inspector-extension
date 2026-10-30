@@ -24,4 +24,11 @@ npm run build
 
 `npm run build` 会生成 `workbench/` 页面、`content/inspector.js` 和 `background/inspector.js`。静态式神与御魂资料位于 `public/data/`，随构建复制到插件中；不需要导入 SQL。原版插件已备份在项目同级的 `yys-cbg-assistant-v0.16.9-original-backup.zip`。
 
-分析页面、计算逻辑和静态美术资源来自 `iXinMengChen/yys-cbg-inspector`，遵循其 MIT 许可证，见 `licenses/yys-cbg-inspector-MIT.txt`。
+## 参考项目与致谢
+
+本项目参考了以下两个项目，感谢原作者的工作：
+
+- [liyikradlee/yys-cbg-assistant-releases](https://github.com/liyikradlee/yys-cbg-assistant-releases)
+- [iXinMengChen/yys-cbg-inspector](https://github.com/iXinMengChen/yys-cbg-inspector)
+
+其中，分析页面、计算逻辑和静态美术资源来自 `iXinMengChen/yys-cbg-inspector`，遵循其 MIT 许可证，见 `licenses/yys-cbg-inspector-MIT.txt`。
