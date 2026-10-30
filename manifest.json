@@ -1,0 +1,1 @@
+{"manifest_version":3,"name":"阴阳师藏宝阁账号分析","version":"1.0.6","description":"作者 EMIN。藏宝阁账号概览、速度、PVE、式神技能与御魂计算。","permissions":["storage","tabs"],"host_permissions":["https://yys.cbg.163.com/*"],"background":{"service_worker":"background/inspector.js"},"content_scripts":[{"matches":["https://yys.cbg.163.com/*"],"js":["content/inspector.js"],"run_at":"document_idle"}]}
